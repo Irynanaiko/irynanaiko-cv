@@ -1,6 +1,7 @@
 /* RESET Styles */
 body,
-p {
+p,
+h2 {
     margin: 0;
 }
 
@@ -54,4 +55,17 @@ h1 {
 li {
     list-style-type: none;
 
+}
+
+.right-side-section h2 {
+    display: inline-block;
+    white-space: nowrap;
+    transform: translate(0, 100%) rotate(-90deg);
+    transform-origin: 0 0;
+    vertical-align: bottom;
+}
+
+.right-side-section {
+    display: grid;
+    grid-template-columns: 1fr 3fr 3fr 1fr;
 }
