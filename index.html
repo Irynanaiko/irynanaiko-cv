@@ -5,118 +5,201 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
-    <aside class="left-side">
-        <header class="main-info">
-            <div class="user-foto"></div>
-            <p>Hello, I am...</p>
-            <h1>Iryna Naiko</h1>
-            <p>Front-end developer</p>
-        </header>
-        <section class="left-side-card">
-            <div class="main-title">
-                <h2 class="title">
-                    <img src="img/contact.png" alt="icon contacts">Contacts
-                </h2>
-            </div>
-            <ul class="contacts-list">
-                <li>
-                    <img src="img/phone.png" alt="phone">
-                    <a>+380509404270</a>
-                </li>
-                <li>
-                    <img src="img/mail.png" alt="mail">
-                    <a>irynaiko@gmail.com</a>
-                </li>
-                <li>
-                    <img src="img/linkedin.png" alt="linkedin">
-                    <a href="https://www.linkedin.com/in/iryna-naiko-0293a01a3/">LinkedIn</a>
-                </li>
-            </ul>
-        </section>
-        <section class="left-side-card">
-            <div class="main-title">
-                <h2 class="title">
-                    <img src="img/speack.png" alt="icon contacts">Language
-                </h2>
-            </div>
-            <ul class="contacts-list">
-                <li>
-                    Ukrainian :Native
-                </li>
+    <div class="content">
+        <aside class="left-side">
+            <header class="main-info">
+                <div class="user-foto"></div>
+                <p class="user-label">Hello, I am...</p>
+                <h1 class="user-name">
+                    <span class="user-name-first">Iryna </span>
+                    <span class="user-name-second">Naiko</span>
+                </h1>
+                <p>Front-end developer</p>
+            </header>
 
-                <li>
-                    English :Intermediate level
-                </li>
-            </ul>
-        </section>
-    </aside>
+            <section class="left-side-card contacts">
+                <div class="main-title">
+                    <span class="material-icons"> group</span>
+                    <h2 class="title">Contacts</h2>
+                </div>
+                <ul class="card-content contacts-list">
+                    <li class="contacts-list-item">
+                        <span class="material-icons">phone</span>
+                        <a class="contacts-list-link" href="#">+380509404270</a>
+                    </li>
+                    <li class="contacts-list-item">
+                        <span class="material-icons">email</span>
+                        <a class="contacts-list-link" href="#">irynaiko@gmail.com</a>
+                    </li>
+                    <li class="contacts-list-item">
+                        <span class="material-icons">language</span>
+                        <a class="contacts-list-link"
+                            href="https://www.linkedin.com/in/iryna-naiko-0293a01a3/">LinkedIn</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="left-side-card contacts">
+                <div class="main-title">
+                    <span class="material-icons">speaker_notes</span>
+                    <h2 class="title">Language</h2>
+                </div>
+                <ul class="card-content contacts-list">
+                    <li class="contacts-list-item">
+                        Ukrainian: <span class="contact-list-language-ua">Native</span>
+                    </li>
 
-    <main class="right-side">
-        <section class="right-side-section">
-            <h2>Education</h2>
-            <ul>
-                <li> 2004 - 2010</li>
-            </ul>
-            <ul>
-                <span>Master of Chemical Sciences</span>
-                Ternopil National Pedagogical University
+                    <li class="contacts-list-item">
+                        English: <span class="contact-list-language-en">Intermediate level</span>
+                    </li>
+                </ul>
+            </section>
+        </aside>
 
-            </ul>
+        <main class="right-side">
+            <section class="right-side-card education">
+                <div class="card-title">
+                    <div class="card-title-top-border"></div>
+                    <h2 class="card-title-text">Education</h2>
+                    <div class="card-title-bottom-border"></div>
+                </div>
 
-            <img src="img/hat.png" alt="black hat">
-        </section>
-        <section class="right-side-section">
-            <h2>Skills</h2>
-            <ul>Programming Languages/
-                Technologies
-                <li>JavaScript</li>
-                <li>HTML, CSS</li>
-                <li>SQL</li>
-            </ul>
-            <ul>Development Tools
-                <li>Sublime Text</li>
-                <li>Git, GitHub</li>
-                <li>VS code</li>
-            </ul>
-            <img src="img/skills.png" alt="icon book">
-        </section>
-        <section class="right-side-section">
-            <h2>Experience</h2>
-            <ul>SoftServe ITA Student – HTML/CSS/JS
-                Project description: online shopping web page design. During this project I was working with programs
-                such us:
-                <li>JavaScript</li>
-                <li>HTML, CSS</li>
-                <li>jQuery</li>
-                <li>Bootstrap</li>
-            </ul>
-            <ul>I’ve learned:
-                <li>To create HTML links;</li>
-                <li>Connecting CSS styles;</li>
-                <li>Make page functional with a JS.</li>
-            </ul>
-            <img src="img/students.png" alt="students">
-        </section>
-        <section class="right-side-section">
-            <h2>
-                Courses
-            </h2>
-            <ul>
-                <li><a href="https://career.softserveinc.com/uk-ua/learning-and-certification"> SoftServe academy</a>
-                </li>
-                <li><a href="https://lms.beetroot.academy/">Beetroot academy</a></li>
-                <li><a href="https://www.udemy.com/">Udemy</a></li>
-                <li><a href="https://www.sololearn.com/">Sololearn</a></li>
-                <li><a href="https://ru.coursera.org/">Coursera</a></li>
-            </ul>
-            <img src="img/courses.png" alt="gold">
-        </section>
-    </main>
+                <div class="card-content">
+                    <ul class="education-list">
+                        <li class="education-item">
+                            <p class="education-year">09 - 2020</p>
 
+                            <div class="education-institution">
+                                <p class="education-institution-title">Beetroot academy </p>
+                                <p class="education-institution-subtitle">Front-end Development</p>
+                            </div>
+                        </li>
+                        <li class="education-item">
+                            <p class="education-year">06 - 2020</p>
+
+                            <div class="education-institution">
+                                <p class="education-institution-title">SoftServe ITA Student </p>
+                                <p class="education-institution-subtitle">HTML/CSS/JS</p>
+                            </div>
+                        </li>
+                        <li class="education-item">
+                            <p class="education-year">06 - 2010</p>
+
+                            <div class="education-institution">
+                                <p class="education-institution-title">Ternopil National Pedagogical University</p>
+                                <p class="education-institution-subtitle">Master of Chemical Sciences </p>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <span class="material-icons card-icon">school</span>
+                </div>
+            </section>
+
+            <section class="right-side-card skills">
+
+                <div class="card-title">
+                    <div class="card-title-top-border"></div>
+                    <h2 class="card-title-text">Skills</h2>
+                    <div class="card-title-bottom-border"></div>
+                </div>
+
+                <div class="card-content">
+                    <ul class="skills-list">Programming Languages/
+                        Technologies
+                        <li class="skills-list-item">JavaScript</li>
+                        <li class="skills-list-item">HTML</li>
+                        <li class="skills-list-item">CSS</li>
+                        <li class="skills-list-item">Bootstrap</li>
+                        <li class="skills-list-item">Gulp</li>
+                        <li class="skills-list-item">Angular</li>
+                    </ul>
+                    <ul class="skills-list">Development Tools
+                        <li class="skills-list-item">GitHub</li>
+                        <li class="skills-list-item">Git</li>
+                        <li class="skills-list-item">VS code</li>
+                        <li class="skills-list-item">Chrome Developer Tools</li>
+                    </ul>
+                    <span class="material-icons card-icon">laptop_windows</span>
+                </div>
+            </section>
+
+            <section class="right-side-card expirience">
+                <div class="card-title">
+                    <div class="card-title-top-border"></div>
+                    <h2 class="card-title-text">Experience</h2>
+                    <div class="card-title-bottom-border"></div>
+                </div>
+
+                <div class="card-content">
+                    <div class="card-contetn-experience">
+                        <ul class="experience-list">Beetroot academy – Front-end Development
+                            <li class="experience-list-item"><strong>Project description:</strong> To do list
+                                development
+                                project for a Time Management
+                                program to help individuals manage their daily schedules. This project was created using
+                                framework
+                                Angular V.11.
+                            </li>
+                        </ul>
+
+                        <ul class="experience-list">SoftServe ITA Student – HTML/CSS/JS Fundamentals
+
+                            <li class="experience-list-item"><strong>Project description:</strong> online shopping web
+                                page design.
+                                During this project I was working
+                                with programs such us: Java Script, HTML, CSS, Bootstrap. I’ve learned: to create HTML
+                                links,
+                                connecting CSS styles, make page functional with a JS.
+                            </li>
+                        </ul>
+                    </div>
+
+                    <span class="material-icons card-icon"> groups</span>
+                </div>
+
+            </section>
+
+            <section class="right-side-card courses">
+                <div class="card-title">
+                    <div class="card-title-top-border"></div>
+                    <h2 class="card-title-text">Courses</h2>
+                    <div class="card-title-bottom-border"></div>
+                </div>
+
+                <div class="card-content">
+                    <ul class="courses-list">
+                        <li class="courses-list-item"> SoftServe academy:<a class="certificate"
+                                href="https://drive.google.com/drive/folders/1oQ8_IZKwph6a-onsBYiuam1JyZJTRiYB?usp=sharing">
+                                HTML5/CSS3/JavaScript Fundamentals
+                            </a> </li>
+                        <li class="courses-list-item">Beetroot academy:<a class="certificate"
+                                href="https://drive.google.com/drive/folders/1oQ8_IZKwph6a-onsBYiuam1JyZJTRiYB?usp=sharing">Front-end
+                                development </a></li>
+                        <li class="courses-list-item">Udemy:<a class="certificate"
+                                href="https://drive.google.com/drive/folders/1oQ8_IZKwph6a-onsBYiuam1JyZJTRiYB?usp=sharing">
+                                Практический JavaScript (Продвинутый уровень)<br>Полный курс по JavaScript + React - с
+                                нуля до результата</a>
+                        </li>
+                        <li class="courses-list-item">Sololearn:<a class="certificate"
+                                href="https://drive.google.com/drive/folders/1oQ8_IZKwph6a-onsBYiuam1JyZJTRiYB?usp=sharing">
+                                HTML Fundamentals course, CSS, JavaScript course</a>
+                        </li>
+
+                    </ul>
+
+
+                    <span class="material-icons card-icon">emoji_events</span>
+                </div>
+            </section>
+        </main>
+    </div>
 </body>
 
 </html>
